@@ -1,0 +1,46 @@
+{
+  "name": "view-into-the-vortex",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Red Hat, Inc.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint test/*.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lance/view-into-the-vortex.git"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "index.js",
+    "long-stacks.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/lance/view-into-the-vortex/issues"
+  },
+  "homepage": "https://github.com/lance/view-into-the-vortex",
+  "devDependencies": {
+    "eslint": "~3.8.1",
+    "eslint-config-semistandard": "~7.0.0",
+    "eslint-config-standard": "~6.2.0",
+    "eslint-plugin-promise": "~3.3.0",
+    "eslint-plugin-react": "~6.4.1",
+    "eslint-plugin-standard": "~2.0.1"
+  },
+  "gitHubUser": "lance",
+  "description": "Example code for NodeConf Budapest 2017",
+  "keywords": [
+    "async",
+    "async_wrap",
+    "async_hooks",
+    "example",
+    "nodeconf"
+  ],
+  "dependencies": {
+    "clarify": "~2.0.0",
+    "stack-chain": "~1.3.7"
+  }
+}

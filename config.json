@@ -1,0 +1,6 @@
+{
+  "name": "test configuration",
+  "version": 1,
+  "description": "Used as an example"
+  "userConfig": "user.json"
+}
